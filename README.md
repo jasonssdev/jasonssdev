@@ -3,7 +3,7 @@
 <a href="[https://github.com/DenverCoder1/readme-typing-svg](https://github.com/jasonssdev)"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9966FF&width=435&lines=Data+Analyst;Business+Intelligence;Python+Developer"/></a>
 
 ## About Me
-* I have over nine years of experience in Marketing and Data Analytics across the construction and technology industries.
+* I have over ten years of experience in Marketing and Data Analytics across the construction and technology industries.
 * I specialize in aligning strategic business goals with technical solutions to drive revenue growth and customer satisfaction.
 
 ## Tech Stack 
