@@ -1,6 +1,6 @@
 # This is Jason
 <p>I am...</p>
-<a href="[https://github.com/DenverCoder1/readme-typing-svg](https://github.com/jasonssdev)"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9966FF&width=435&lines=Data+Analyst;Business+Intelligence;Python+Developer"/></a>
+<a href="[https://github.com/DenverCoder1/readme-typing-svg](https://github.com/jasonssdev)"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9966FF&width=435&lines=Data+Analyst;Business+Intelligence;Data+Scientist;AI+Engineering"/></a>
 
 ## About Me
 * I have over ten years of experience in Marketing and Data Analytics across the construction and technology industries.
