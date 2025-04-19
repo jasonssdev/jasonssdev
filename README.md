@@ -15,6 +15,10 @@
 ![Seaborn](https://img.shields.io/badge/-Seaborn-9966ff?logo=seaborn&logoColor=f1f1f1)&nbsp;
 ![Scikit-Learn](https://img.shields.io/badge/-ScikitLearn-9966ff?logo=scikitlearn&logoColor=f1f1f1)&nbsp;
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-9966ff?logo=tensorflow&logoColor=f1f1f1)&nbsp;
+![Lanchain](https://img.shields.io/badge/-Langchain-9966ff?logo=langchain&logoColor=f1f1f1)&nbsp;
+![Langgraph](https://img.shields.io/badge/-Langgraph-9966ff?logo=langgraph&logoColor=f1f1f1)&nbsp;
+![OpenAI](https://img.shields.io/badge/-OpenAI-9966ff?logo=openai&logoColor=f1f1f1)&nbsp;
+![Claude](https://img.shields.io/badge/-Claude-9966ff?logo=claude&logoColor=f1f1f1)&nbsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-9966ff?logo=mysql&logoColor=f1f1f1)&nbsp;
 ![PostgresSQL](https://img.shields.io/badge/-PostgresSQL-9966ff?logo=postgresql&logoColor=f1f1f1)&nbsp;
 ![PowerBI](https://img.shields.io/badge/-PowerBI-9966ff?logo=googleanalytics&logoColor=f1f1f1)&nbsp;
