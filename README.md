@@ -15,6 +15,8 @@
 ![Seaborn](https://img.shields.io/badge/-Seaborn-9966ff?logo=seaborn&logoColor=f1f1f1)&nbsp;
 ![Scikit-Learn](https://img.shields.io/badge/-ScikitLearn-9966ff?logo=scikitlearn&logoColor=f1f1f1)&nbsp;
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-9966ff?logo=tensorflow&logoColor=f1f1f1)&nbsp;
+![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-9966ff?logo=beautifulsoup&logoColor=f1f1f1)&nbsp;
+![Selenium](https://img.shields.io/badge/-Selenium-9966ff?logo=selenium&logoColor=f1f1f1)&nbsp;
 ![Lanchain](https://img.shields.io/badge/-Langchain-9966ff?logo=langchain&logoColor=f1f1f1)&nbsp;
 ![Langgraph](https://img.shields.io/badge/-Langgraph-9966ff?logo=langgraph&logoColor=f1f1f1)&nbsp;
 ![OpenAI](https://img.shields.io/badge/-OpenAI-9966ff?logo=openai&logoColor=f1f1f1)&nbsp;
