@@ -1,174 +1,92 @@
 # Hi, I'm Jason Sepúlveda 👋
 
-### AI Engineer • Data Scientist • AI Systems Builder
+### AI Engineer & Data Scientist
 
-<a href="https://github.com/jasonssdev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=9966FF&width=800&lines=AI+Engineer;Data+Scientist;AI+Systems+Builder;Building+Agentic+AI+Applications;Machine+Learning+%26+Generative+AI;Turning+Business+Problems+into+Technical+Solutions" />
+<a href="https://jasonssdev.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1400&color=9966FF&width=800&lines=Retrieval-Augmented+Generation;Agent+orchestration+and+guardrails;Systems+people+actually+use" />
 </a>
 
 ---
 
-## About Me
+I find the operational bottleneck that's actually worth solving, and then build the system that removes it.
 
-I combine business strategy, data science, machine learning, and generative AI to design and deploy intelligent systems that solve real-world problems.
+Ten years turning enterprise problems into working software — most recently at Hilti, where I ship production AI to people who have to use it every day. My open-source work is where I go deeper: retrieval engines, agent workflows, and the guardrails that make either one trustworthy.
 
-With more than 10 years of experience across analytics, digital transformation, customer experience, operations, and marketing, I specialize in connecting business needs with technical solutions that generate measurable impact.
+**MSc in Data Science** at Pontificia Universidad Católica de Chile.
 
-Today, my focus is on:
-
-- 🤖 Agentic AI Systems
-- 🧠 Machine Learning & Deep Learning
-- 🔍 Retrieval-Augmented Generation (RAG)
-- ⚡ AI Automation & Workflows
-- 📊 Data Analytics & Decision Intelligence
-- ☁️ Cloud & AI Infrastructure
-- 🚀 Full Stack AI Applications
+📍 Panama City, Panama · 🌐 [jasonssdev.com](https://jasonssdev.com)
 
 ---
 
-## Portfolio
+## Featured Projects
 
-🌐 https://jasonssdev.com
+### 🧠 [OpenKOS](https://github.com/jasonssdev/openkos) · `Python` `Apache-2.0` `PyPI`
 
-## Current Focus
+Local-first knowledge engine implementing Google Cloud's **Open Knowledge Format**. Hybrid retrieval fuses lexical (SQLite FTS5), vector and graph signals through reciprocal rank fusion with PageRank, over a typed knowledge graph built by entity extraction. A **fail-closed confidentiality filter** guarantees sensitive content never reaches the model, and a reversible `forget` / irreversible `purge` lifecycle implements the right to be forgotten down to git history. Runs 100% offline on local models. 19-verb CLI, ADRs, full project governance.
 
-> Building intelligent systems that generate measurable business impact.
+### 🤖 Ambient Expense Agent · `Python` `Google ADK 2.0` `Gemini`
 
-Currently exploring:
+Event-driven expense-approval workflow modelled as a node graph: Pub/Sub ingestion, conditional routing by amount, an LLM reviewer returning Pydantic-structured risk analysis, and real human-in-the-loop interrupt/resume. A custom security checkpoint redacts PII and detects prompt injection **before any content reaches the model or the trace log** — asserted by integration tests, not assumed. Scored by two purpose-built LLM-as-judge metrics: routing correctness and security containment.
 
-- Google ADK
-- Multi-Agent Architectures
-- LangGraph
-- MCP (Model Context Protocol)
-- RAG Systems
-- AI Engineering
-- Full Stack AI Applications
-- Vertex AI Agent Engine
+### 🎙️ [Whisper Loopback](https://github.com/jasonssdev/whisper-loopback) · `Python` `whisper.cpp` `Metal`
 
----
+Real-time, fully on-device transcription of macOS system audio through a virtual loopback device. Streaming output via LocalAgreement-2, automatic English/Spanish detection, speaker-labelled meeting mode, optional local summarisation through Ollama. No audio ever leaves the machine.
 
-## Impact Snapshot
+### 📰 [AI Observatory](https://github.com/jasonssdev/ai-observatory) · `Python`
 
-| Metric | Value |
-|----------|----------|
-| Professional Experience | 10+ Years |
-| Certifications Completed | 60+ |
-| LATAM Markets Managed | 6 |
-| Business Impact Delivered | USD$1M+ |
-| Core Focus | AI Engineering & Data Science |
+Local-first pipeline for daily AI news ingestion and weekly ranked topic synthesis, deliberately scoped to a minimal ingest → rank → synthesize core.
 
 ---
 
-## Core Technologies
+## Shipped at Work
 
-### AI & Agents
+| What | Scale | Outcome |
+|---|---|---|
+| Conversational AI assistant for Material Management | 300+ users, 5+ countries | ~1,000 specialist hours recovered per year |
+| Python + SQL ETL pipeline feeding automated reporting | 300+ sales territories | 15,000+ annual cross-team interactions cut by >50% · CHF 105K/year |
+| Regional eCommerce & analytics ownership | 6 LATAM countries | +35% eCommerce sales · +80% new user registrations |
 
+---
+
+## Stack
+
+**AI & Agents**
+
+![Python](https://img.shields.io/badge/Python-9966ff?style=flat-square&logo=python&logoColor=white)
 ![Google ADK](https://img.shields.io/badge/Google_ADK-9966ff?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-9966ff?style=flat-square)
-![Claude](https://img.shields.io/badge/Claude-9966ff?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini-9966ff?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-9966ff?style=flat-square)
-![LangGraph](https://img.shields.io/badge/LangGraph-9966ff?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-9966ff?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-9966ff?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-9966ff?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-9966ff?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-9966ff?style=flat-square&logo=ollama&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-9966ff?style=flat-square&logo=fastapi&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-9966ff?style=flat-square)
 
-### Machine Learning & Data
+**Data & Platform**
 
-![Python](https://img.shields.io/badge/Python-9966ff?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-9966ff?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-9966ff?logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-9966ff?logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-9966ff?logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-9966ff?logo=pytorch&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-9966ff?logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-9966ff?style=flat-square)
-![PySpark](https://img.shields.io/badge/PySpark-9966ff?logo=apachespark&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-9966ff?style=flat-square&logo=postgresql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-9966ff?style=flat-square&logo=scikitlearn&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-9966ff?style=flat-square&logo=googlecloud&logoColor=white)
+![SAP](https://img.shields.io/badge/SAP-9966ff?style=flat-square&logo=sap&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-9966ff?style=flat-square&logo=powerbi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-9966ff?style=flat-square&logo=docker&logoColor=white)
 
-### Full Stack AI Development
-
-![NextJS](https://img.shields.io/badge/Next.js-9966ff?logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-9966ff?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-9966ff?logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-9966ff?logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-9966ff?logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-9966ff?logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-9966ff?logo=docker&logoColor=white)
-
-### Cloud & Enterprise
-
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-9966ff?logo=googlecloud&logoColor=white)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-9966ff?style=flat-square)
-![SAP](https://img.shields.io/badge/SAP-9966ff?logo=sap&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-9966ff?logo=powerbi&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-9966ff?logo=tableau&logoColor=white)
+Also working with: LangChain · Pydantic · pandas · SQLite/FTS5 · Vertex AI Agent Engine · Cloud Run · Microsoft Copilot Studio · Power Automate · pytest · uv
 
 ---
 
-## Contribution Activity
+## Community
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jasonssdev&theme=dark&hide_border=true&background=0D1117&stroke=9966ff&ring=9966ff&currStreakLabel=9966ff&fire=9966ff" />
-</p>
+I help run and build material for **[PyData Panama](https://github.com/PyData-Panama)** — I designed the curriculum, prerequisites and contribution guidelines for the community's Python data-analysis course.
 
 ---
 
 ## Let's Connect
 
-I enjoy sharing what I learn about:
-
-- AI Engineering
-- Agentic Systems
-- Machine Learning
-- Data Science
-- Python
-- Full Stack AI Development
-- Google Cloud
-
-### Community & Social Media
-
-<p align="center">
-
 <a href="https://www.linkedin.com/in/jasonsepulvedas">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
-<a href="https://github.com/jasonssdev">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://jasonssdev.com">
+<img src="https://img.shields.io/badge/Portfolio-9966FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
-
 <a href="https://www.youtube.com/@jasonssdev">
 <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
 </a>
-
-<a href="https://www.instagram.com/jasonssdev/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-
-<a href="https://x.com/jasonssdev">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
-
-<a href="https://www.facebook.com/jasonssdev/">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-</a>
-
-<a href="https://www.tiktok.com/@jasonssdev">
-<img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
-</a>
-
-<a href="https://www.twitch.tv/jasonssdev">
-<img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
-</a>
-
-<a href="https://www.threads.net/@jasonssdev">
-<img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-### Personal Motto
-
-> Building intelligent systems that generate measurable business impact.
